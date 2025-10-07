@@ -306,8 +306,7 @@ def test_logger(mock_logger):
     assert f"end={end}" in msg
     assert f"score={score:.2f}" in msg
 
-# If this helper is missing at the bottom of your file, add it:
+
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
     return RecognizerResult.from_json(data)
-

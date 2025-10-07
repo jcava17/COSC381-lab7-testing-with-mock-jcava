@@ -17,11 +17,11 @@ Branches in this repo (with details):
     e025a6c | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:34:10Z | Auto-update branch-info.txt
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
 - main
-  SHA: f91851d561b357d16c883d6b1a52930e4a337b7f
-  Commits: 44
+  SHA: 3c6f1ba0f1a49ccaadd15c0c1271c27263a596e2
+  Commits: 47
   Recent commits:
+    3c6f1ba | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:19:49Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava
+    046c639 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:19:49Z | Fix: clean test_encrypt.py (Task2-4: operator tests, invalid-key mock, type+validate param test)
+    98e4c95 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:08:32Z | Auto-update branch-info.txt
     f91851d | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:08:29Z | Auto-update branch-info.txt
     9cae39f | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:23Z | Merge branch 'lab7' into main (final for grading)
-    5dd9e00 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:21Z | Lab7: finalize before merging to main
-    71a922a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:08:16Z | Auto-update branch-info.txt
-    27656ed | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:06Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava

@@ -8,19 +8,20 @@ Branches in this repo (with details):
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
     40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
 - lab7
-  SHA: 9092e157ab2fb159aba21eb4529d3d4cadf59683
-  Commits: 4
+  SHA: 6d4a9978c5cbdf560ef240c2d757c14ef3414f09
+  Commits: 5
   Recent commits:
+    6d4a997 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:38Z | Lab7: merge marker for CodeGrade
     9092e15 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:23:48Z | Lab7: encrypt tests (name/type/invalid-key mock + valid keys), conflict debug assertion, recognizer logger test
     e025a6c | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:34:10Z | Auto-update branch-info.txt
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
     40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
 - main
-  SHA: 9953631d376aeb3c0607765723235601934e96f9
-  Commits: 18
+  SHA: 16005cb45f8bc34e322b334a27719f02144e49b5
+  Commits: 19
   Recent commits:
+    16005cb | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T14:41:17Z | Auto-update branch-info.txt
     9953631 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:40:56Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava
     7b0f4ee | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:39:02Z | Trigger CodeGrade to regrade latest main
     eed12bf | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T14:39:01Z | Auto-update branch-info.txt
     151a6f7 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:38:43Z | Merge remote-tracking branch 'origin/main'
-    7468f06 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T14:25:21Z | Auto-update branch-info.txt

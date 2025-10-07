@@ -17,11 +17,11 @@ Branches in this repo (with details):
     e025a6c | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:34:10Z | Auto-update branch-info.txt
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
 - main
-  SHA: 3c6f1ba0f1a49ccaadd15c0c1271c27263a596e2
-  Commits: 47
+  SHA: 81aa5cc704d382f9563dd16024b1e46d8efa3279
+  Commits: 50
   Recent commits:
+    81aa5cc | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:35Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava
+    7f4a17c | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:35Z | Fix Task1 logger test (single block, keyword asserts); Task3 100% with invalid string key; Task4 param test type+validate
+    ad578f2 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:20:01Z | Auto-update branch-info.txt
     3c6f1ba | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:19:49Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava
     046c639 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:19:49Z | Fix: clean test_encrypt.py (Task2-4: operator tests, invalid-key mock, type+validate param test)
-    98e4c95 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:08:32Z | Auto-update branch-info.txt
-    f91851d | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:08:29Z | Auto-update branch-info.txt
-    9cae39f | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:23Z | Merge branch 'lab7' into main (final for grading)

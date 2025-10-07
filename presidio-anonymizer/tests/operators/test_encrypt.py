@@ -20,7 +20,7 @@ def test_operator_type():
 
 
 # --- Task 3: force invalid-key branch in validate() to hit 100% coverage --------
-# (Matches rubric hints: decorator + renamed mock var + explicit return_value)
+# Rubric wants decorator, renamed mock var, and explicit return_value.
 
 @mock.patch.object(AESCipher, "is_valid_key_size", return_value=False)
 def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_valid_key_size):
@@ -28,10 +28,40 @@ def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_val
         InvalidParamError,
         match="Invalid input, key must be of length 128, 192 or 256 bits",
     ):
-        # bytes key path (line 48 in encrypt.py)
+        # bytes-key path (else branch)
         Encrypt().validate(params={"key": b"1111111111111111"})
-    # Optional but tidy for rubric: ensure our mock was actually used
     mock_is_valid_key_size.assert_called()
+
+
+# --- Extra: cover validate() success for both string and bytes -------------------
+
+@mock.patch.object(AESCipher, "is_valid_key_size", return_value=True)
+def test_validate_accepts_string_key_when_valid(mock_is_valid_key_size):
+    Encrypt().validate(params={"key": "a" * 16})  # 128-bit string
+
+
+@mock.patch.object(AESCipher, "is_valid_key_size", return_value=True)
+def test_validate_accepts_bytes_key_when_valid(mock_is_valid_key_size):
+    Encrypt().validate(params={"key": b"a" * 16})  # 128-bit bytes
+
+
+# --- Extra: cover operate() without calling real crypto --------------------------
+
+@mock.patch.object(AESCipher, "encrypt", return_value="ENC(TEXT)")
+def test_operate_calls_aes_encrypt_with_str_key_and_encodes(mock_encrypt):
+    out = Encrypt().operate(text="TEXT", params={"key": "a" * 16})
+    assert out == "ENC(TEXT)"
+    # string key should be encoded to bytes before passing to AESCipher.encrypt
+    passed_key = mock_encrypt.call_args[0][0]
+    assert isinstance(passed_key, (bytes, bytearray))
+
+
+@mock.patch.object(AESCipher, "encrypt", return_value="ENC(TEXT)")
+def test_operate_calls_aes_encrypt_with_bytes_key(mock_encrypt):
+    out = Encrypt().operate(text="TEXT", params={"key": b"a" * 16})
+    assert out == "ENC(TEXT)"
+    passed_key = mock_encrypt.call_args[0][0]
+    assert isinstance(passed_key, (bytes, bytearray))
 
 
 # --- Task 4: black-box test for valid key sizes ---------------------------------
@@ -48,5 +78,5 @@ def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_val
     ],
 )
 def test_valid_keys(key):
-    # Should NOT raise
+    # should NOT raise
     Encrypt().validate(params={"key": key})

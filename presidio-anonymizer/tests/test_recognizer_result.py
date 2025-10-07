@@ -297,15 +297,17 @@ def test_logger(mock_logger):
     # Act
     _ = create_recognizer_result(entity_type, score, start, end)
 
-    # Assert: logger.info was called with message containing the fields
-    assert mock_logger.info.called
+    # Assert: called once and message contains all keywords + formatted score
+    mock_logger.info.assert_called_once()
     msg = mock_logger.info.call_args[0][0]
-    assert entity_type in msg
+    assert "created analyzer result" in msg
+    assert f"entity_type='{entity_type}'" in msg
     assert f"start={start}" in msg
     assert f"end={end}" in msg
     assert f"score={score:.2f}" in msg
 
-
+# If this helper is missing at the bottom of your file, add it:
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
     return RecognizerResult.from_json(data)
+

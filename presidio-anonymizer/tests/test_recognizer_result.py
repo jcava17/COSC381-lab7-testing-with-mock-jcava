@@ -297,7 +297,7 @@ def test_logger(mock_logger):
     # Act
     _ = create_recognizer_result(entity_type, score, start, end)
 
-    # Assert: called and message has all keywords
+    # Assert: logger.info was called and message has ALL required keywords
     mock_logger.info.assert_called()
     msg = mock_logger.info.call_args[0][0]
     assert f"entity_type='{entity_type}'" in msg
@@ -306,6 +306,7 @@ def test_logger(mock_logger):
     assert f"score={score:.2f}" in msg
 
 
+# Keep this helper defined exactly once in the file (at bottom is fine)
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
     return RecognizerResult.from_json(data)

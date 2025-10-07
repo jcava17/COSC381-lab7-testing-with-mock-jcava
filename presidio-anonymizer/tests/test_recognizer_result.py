@@ -309,3 +309,37 @@ def test_logger(mock_logger):
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
     return RecognizerResult.from_json(data)
+
+
+from unittest import mock
+
+# Patch by fully-qualified string path so the decorator doesn't need the class object
+@mock.patch("presidio_anonymizer.entities.engine.recognizer_result.RecognizerResult.logger")
+def test_logger(mock_logger):
+    # Arrange
+    entity_type = "PERSON"
+    start = 5
+    end = 10
+    score = 0.87
+
+    # Act — triggers logger.info inside RecognizerResult.__init__
+    create_recognizer_result(entity_type, score, start, end)
+
+    # Assert: called exactly once
+    mock_logger.info.assert_called_once()
+
+    # Assert: message contains all required keywords + formatted score
+    msg = mock_logger.info.call_args[0][0]
+    assert "created analyzer result" in msg
+    assert f"entity_type='{entity_type}'" in msg
+    assert f"start={start}" in msg
+    assert f"end={end}" in msg
+    assert f"score={score:.2f}" in msg
+
+
+def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
+    # Import here to avoid any NameError regardless of file imports above
+    from presidio_anonymizer.entities import RecognizerResult
+    data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
+    return RecognizerResult.from_json(data)
+

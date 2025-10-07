@@ -16,11 +16,11 @@ Branches in this repo (with details):
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
     40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
 - main
-  SHA: 34b13509c6e9309d34a2e080bacb6888c9f03fe2
-  Commits: 8
+  SHA: eba2ee5604a90d6af78d35f3880d3ee92c2cf482
+  Commits: 10
   Recent commits:
+    eba2ee5 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:06:24Z | CG fixes: encrypt 100% (decorator with return_value), operate covered via mock, validate branches covered, strong logger asserts
+    191b105 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T13:55:11Z | Auto-update branch-info.txt
     34b1350 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:55:03Z | Fix CG items: encrypt 100%, operator name/type, valid keys, conflict debug assert, stronger recognizer logger
     7e9ebe5 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T13:33:55Z | Auto-update branch-info.txt
     413fefa | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:33:45Z | Merge branch 'lab7' # Please enter a commit message to explain why this merge is necessary, # especially if it merges an updated upstream into a topic branch. # # Lines starting with '#' will be ignored, and an empty message aborts # the commit.
-    f724875 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T13:27:52Z | Auto-update branch-info.txt
-    9092e15 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:23:48Z | Lab7: encrypt tests (name/type/invalid-key mock + valid keys), conflict debug assertion, recognizer logger test

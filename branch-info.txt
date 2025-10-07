@@ -17,11 +17,11 @@ Branches in this repo (with details):
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
     40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
 - main
-  SHA: 16005cb45f8bc34e322b334a27719f02144e49b5
-  Commits: 19
+  SHA: 4bd0450e979fbd007aab94f0255fde57ff437cba
+  Commits: 22
   Recent commits:
+    4bd0450 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:50Z | Merge lab7 into main for grading
+    a2a4c01 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T14:46:48Z | Auto-update branch-info.txt
+    6d4a997 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:38Z | Lab7: merge marker for CodeGrade
     16005cb | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T14:41:17Z | Auto-update branch-info.txt
     9953631 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:40:56Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava
-    7b0f4ee | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:39:02Z | Trigger CodeGrade to regrade latest main
-    eed12bf | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T14:39:01Z | Auto-update branch-info.txt
-    151a6f7 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:38:43Z | Merge remote-tracking branch 'origin/main'

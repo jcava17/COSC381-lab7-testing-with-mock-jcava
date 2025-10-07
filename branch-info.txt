@@ -8,20 +8,20 @@ Branches in this repo (with details):
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
     40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
 - lab7
-  SHA: 6d4a9978c5cbdf560ef240c2d757c14ef3414f09
-  Commits: 5
+  SHA: 5dd9e0045d6858bd807cc707b9030e4fc5a128e3
+  Commits: 6
   Recent commits:
+    5dd9e00 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:21Z | Lab7: finalize before merging to main
     6d4a997 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:38Z | Lab7: merge marker for CodeGrade
     9092e15 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:23:48Z | Lab7: encrypt tests (name/type/invalid-key mock + valid keys), conflict debug assertion, recognizer logger test
     e025a6c | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:34:10Z | Auto-update branch-info.txt
     437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
-    40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
 - main
-  SHA: 27656ed077c44e74d39714109374d91eba42e322
-  Commits: 40
+  SHA: 9cae39f5f674a57afb6a7e13d4495cbb76a1d80a
+  Commits: 43
   Recent commits:
+    9cae39f | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:23Z | Merge branch 'lab7' into main (final for grading)
+    5dd9e00 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:21Z | Lab7: finalize before merging to main
+    71a922a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:08:16Z | Auto-update branch-info.txt
     27656ed | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:06Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava
     64953e3 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:08:06Z | Task1: fix logger test (call + keywords + helper); Task4: (key,key_type) with validate()
-    99db110 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T15:54:59Z | CG Task4: (key,key_type) isinstance + validate()
-    cc9fcac | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T15:40:34Z | Auto-update branch-info.txt
-    978abed | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T15:40:22Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava

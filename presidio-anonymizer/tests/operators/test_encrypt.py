@@ -55,6 +55,19 @@ def test_operate_calls_aes_encrypt_with_bytes_key(mock_encrypt):
     passed_key = mock_encrypt.call_args[0][0]
     assert isinstance(passed_key, (bytes, bytearray))
 
+    from unittest import mock
+
+@mock.patch.object(AESCipher, "is_valid_key_size", return_value=False)
+def test_invalid_length_string_key_raises(mock_is_valid_key_size):
+    from presidio_anonymizer.entities import InvalidParamError
+    with pytest.raises(
+        InvalidParamError,
+        match="Invalid input, key must be of length 128, 192 or 256 bits",
+    ):
+        Encrypt().validate(params={"key": "a" * 16})
+    mock_is_valid_key_size.assert_called()
+
+
 
 # --- Task 4: black-box param test w/ explicit type + validate() ------------------
 
@@ -70,6 +83,5 @@ def test_operate_calls_aes_encrypt_with_bytes_key(mock_encrypt):
     ],
 )
 def test_valid_keys(key, key_type):
-    # Explicit type check + validate() call (this is what the grader looks for)
-    assert isinstance(key, key_type)
-    Encrypt().validate(params={"key": key})
+    assert isinstance(key, key_type)          # explicit type check
+    Encrypt().validate(params={"key": key})   # required validate() call

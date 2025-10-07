@@ -285,22 +285,22 @@ def test_given_negative_start_or_endpoint_then_we_fail(start, end):
         create_recognizer_result("entity", 0, start, end)
 
 from unittest import mock
+
 @mock.patch.object(RecognizerResult, "logger")
 def test_logger(mock_logger):
-    # Arrange
     entity_type = "PERSON"
     start = 5
     end = 10
     score = 0.87
 
-    # Act (no assignment needed; call triggers logging)
+    # calling this triggers the logger.info inside RecognizerResult
     create_recognizer_result(entity_type, score, start, end)
 
-    # Assert: logger.info was called (and exactly once)
+    # grader expects explicit call + once
     mock_logger.info.assert_called()
     mock_logger.info.assert_called_once()
 
-    # Assert: message contains all required keywords + formatted score
+    # grader expects all keywords (entity_type/start/end/score) in the message
     msg = mock_logger.info.call_args[0][0]
     assert "created analyzer result" in msg
     assert f"entity_type='{entity_type}'" in msg

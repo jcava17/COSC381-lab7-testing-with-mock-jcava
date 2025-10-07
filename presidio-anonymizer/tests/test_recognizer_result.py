@@ -295,10 +295,10 @@ def test_logger(mock_logger):
     score = 0.87
 
     # Act
-    _ = create_recognizer_result(entity_type, score, start, end)
+    create_recognizer_result(entity_type, score, start, end)
 
-    # Assert: logger.info was called (CG checks for this explicitly)
-    assert mock_logger.info.called
+    # Assert: logger.info was called (and exactly once)
+    mock_logger.info.assert_called()
     mock_logger.info.assert_called_once()
 
     # Assert: message has ALL required keywords
@@ -310,7 +310,6 @@ def test_logger(mock_logger):
     assert f"score={score:.2f}" in msg
 
 
-# keep this helper defined exactly once in the file (bottom is fine)
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
     return RecognizerResult.from_json(data)

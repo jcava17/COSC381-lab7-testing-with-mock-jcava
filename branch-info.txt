@@ -1,5 +1,14 @@
 Branches in this repo (with details):
 
+- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
+  SHA: fd2785f067fbf2ecf34181b0f65ee65970ce7ec2
+  Commits: 56
+  Recent commits:
+    fd2785f | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T21:22:02Z | Bump python in /presidio-anonymizer
+    6b4b48e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:46:30Z | Auto-update branch-info.txt
+    8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
+    88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
+    a62d93e | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:48Z | Lab7: finalize before merging to main (CG check)
 - dependabot/github_actions/actions/checkout-5
   SHA: ca3ea8391499b0d16ee98ffa04484fd77a85a4f6
   Commits: 3
@@ -17,11 +26,11 @@ Branches in this repo (with details):
     6d4a997 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:38Z | Lab7: merge marker for CodeGrade
     9092e15 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:23:48Z | Lab7: encrypt tests (name/type/invalid-key mock + valid keys), conflict debug assertion, recognizer logger test
 - main
-  SHA: 8eb6e8a0a891915777daf783060b2257e59c9d82
-  Commits: 54
+  SHA: 6b4b48e17f82a550a9e2656cfd78ad66fad7fd46
+  Commits: 55
   Recent commits:
+    6b4b48e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:46:30Z | Auto-update branch-info.txt
     8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
     88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
     a62d93e | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:48Z | Lab7: finalize before merging to main (CG check)
     3afc7d7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:43Z | Auto-update branch-info.txt
-    81aa5cc | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:35Z | Merge branch 'main' of https://github.com/jcava17/COSC381-lab7-testing-with-mock-jcava

@@ -9,13 +9,15 @@ Branches in this repo (with details):
     8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
     88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
     a62d93e | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:48Z | Lab7: finalize before merging to main (CG check)
-- dependabot/github_actions/actions/checkout-5
-  SHA: ca3ea8391499b0d16ee98ffa04484fd77a85a4f6
-  Commits: 3
+- dependabot/github_actions/actions/checkout-6
+  SHA: 53a9096d1c1b9131d0bbc332371e1a7668c97d89
+  Commits: 57
   Recent commits:
-    ca3ea83 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T12:34:00Z | Bump actions/checkout from 3 to 5
-    437e290 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T12:33:32Z | Auto-update branch-info.txt
-    40e6c36 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-07T08:33:18-04:00 | Initial commit
+    53a9096 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-24T22:15:59Z | Bump actions/checkout from 3 to 6
+    d50b35f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T21:22:12Z | Auto-update branch-info.txt
+    6b4b48e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:46:30Z | Auto-update branch-info.txt
+    8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
+    88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
 - lab7
   SHA: 3d4e034874a6f3c6ac4d123c184f087943fed3c4
   Commits: 8
@@ -26,11 +28,11 @@ Branches in this repo (with details):
     6d4a997 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:38Z | Lab7: merge marker for CodeGrade
     9092e15 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:23:48Z | Lab7: encrypt tests (name/type/invalid-key mock + valid keys), conflict debug assertion, recognizer logger test
 - main
-  SHA: 6b4b48e17f82a550a9e2656cfd78ad66fad7fd46
-  Commits: 55
+  SHA: d50b35ff972cf59a7b9d7a85ae1a591ef3350e39
+  Commits: 56
   Recent commits:
+    d50b35f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T21:22:12Z | Auto-update branch-info.txt
     6b4b48e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:46:30Z | Auto-update branch-info.txt
     8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
     88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
     a62d93e | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:48Z | Lab7: finalize before merging to main (CG check)
-    3afc7d7 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:43Z | Auto-update branch-info.txt

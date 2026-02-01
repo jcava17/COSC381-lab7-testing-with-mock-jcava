@@ -1,14 +1,14 @@
 Branches in this repo (with details):
 
-- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
-  SHA: fd2785f067fbf2ecf34181b0f65ee65970ce7ec2
-  Commits: 56
+- dependabot/docker/presidio-anonymizer/python-3.15.0a5-windowsservercore
+  SHA: e1d8eea96ce91b612cc6360b9e653c54795c7d26
+  Commits: 58
   Recent commits:
-    fd2785f | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T21:22:02Z | Bump python in /presidio-anonymizer
+    e1d8eea | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2026-02-01T21:09:37Z | Bump python in /presidio-anonymizer
+    3ffaaae | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-24T22:16:09Z | Auto-update branch-info.txt
+    d50b35f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T21:22:12Z | Auto-update branch-info.txt
     6b4b48e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:46:30Z | Auto-update branch-info.txt
     8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
-    88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
-    a62d93e | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:48Z | Lab7: finalize before merging to main (CG check)
 - dependabot/github_actions/actions/checkout-6
   SHA: 53a9096d1c1b9131d0bbc332371e1a7668c97d89
   Commits: 57
@@ -28,11 +28,11 @@ Branches in this repo (with details):
     6d4a997 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T14:46:38Z | Lab7: merge marker for CodeGrade
     9092e15 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T13:23:48Z | Lab7: encrypt tests (name/type/invalid-key mock + valid keys), conflict debug assertion, recognizer logger test
 - main
-  SHA: d50b35ff972cf59a7b9d7a85ae1a591ef3350e39
-  Commits: 56
+  SHA: 3ffaaae60033812bd2cd5dca67dc03484303c75a
+  Commits: 57
   Recent commits:
+    3ffaaae | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-24T22:16:09Z | Auto-update branch-info.txt
     d50b35f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T21:22:12Z | Auto-update branch-info.txt
     6b4b48e | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:46:30Z | Auto-update branch-info.txt
     8eb6e8a | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T16:26:57Z | Auto-update branch-info.txt
     88ee3c2 | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:49Z | Merge branch 'lab7' into main (final for grading)
-    a62d93e | Author: Jason Cava <180894223+jcava17@users.noreply.github.com> | Committer: Jason Cava <180894223+jcava17@users.noreply.github.com> | Date: 2025-10-07T16:26:48Z | Lab7: finalize before merging to main (CG check)
